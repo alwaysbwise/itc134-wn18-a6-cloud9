@@ -14,7 +14,7 @@
    </header>
     <img src="Java_Logo.svg" alt="Java Logo">
     <h2 class="pageID">Why Java?</h2>
-    <p>Java is the idea object oriented programming language to many developers. It may not be the most fun, but it gets the job done and is easily integrated into many kinds of systems. Java allows you to create modular programs and reusable code. One of the biggest advantages of Java is its seamless ability to move from one computer system to another.</p>
+    <p>Java is the ideal object oriented programming language to many developers. It may not be the most fun, but it gets the job done and is easily integrated into many kinds of systems. Java allows you to create modular programs and reusable code. One of the biggest advantages of Java is its seamless ability to move from one computer system to another.</p>
    <section>
     <h2> How it works</h2>
      <p>The philosiphy behind Java is "write once, run everywhere." A program written in Java can theoretically run on any machine that supports it. The Java complier converts Java code into something the machine can read then the Java Virtual Machine interprets the code for the computer it is running on. Basically Java writes its own code in whatever language your device understands.
