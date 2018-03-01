@@ -1,37 +1,21 @@
-table {
-        border:1px solid #000;
-        width:89%;
-        border-collapse:collapse;
-        margin:auto;
-        background-color:#DFDDDD;
-    }
-      
-    tr {
-        vertical-align: top;
-    }
-      
-    td,th {
-        border:1px dotted #000;
-        padding:.5em;
-        text-align: center;
-    }
-
 h1{
     text-align: center;
+    color: #2B7EB3;
 }
 
 h2{
     text-align: center;
+    color: #C2650D;
 }
 
 body{
-    background: #E28125;
+    background: #C2650D;
     margin: auto;
 }
 
 p{
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
     line-height: 20px;
 }
 
@@ -51,4 +35,10 @@ div.wrapper{
 }
 footer{
     text-align: center;
+}
+
+a{
+    margin-left: 2em;
+    margin-right: 2em;
+    line-height: 20px;
 }
