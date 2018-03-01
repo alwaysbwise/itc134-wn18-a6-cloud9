@@ -1,42 +1,63 @@
-/* Quickly written calculator example using if/else if 
+/* Brief calculator example using 
+ * if/else if block
+ * also with a switch
+ *
+ * The calculator function takes 3 arguments -  
+ * the operator and 2 integers.
+ *
+ * It is currently not configured to take user input.
+ *
+ * This is a basic illustration of how to create and 
+ * call a function and pass it arguments. 
+ *
+ *
+ *
+ */
 
-*/
-
-/* package codechef; // don't place package name! */
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-/* Name of the class has to be "Main" only if the class is public. */
-class Codechef
+public class Calculator
 {
-	public static void main (String[] args) throws java.lang.Exception
+	public static void main (String[] args) 
 	{
-		// your code goes here
-		//Scanner console = new Scanner(System.in);
-		int z = calculator("*", 5, 10);
-		System.out.println(z);
-		
+        // call the function
+        // pass it the arguments
+        // print it to the console
+		System.out.println(calculator("*", 5, 10));
 	}
 	
-	public static int calculator(String op, int x, int y){
-	    int z = 0;
-	    
+	public static int calculator(String op, int x, int y)
+    {	    
 	    if(op == "+"){
-	        z = x + y;
-	        return z;
+	        return x + y;
 	    }else if(op == "-"){
-	        z = x - y;
-	        return z;
+	        return x - y;
 	    }else if (op == "*"){
-	        z = x * y;
-	        return z;
+	        return x * y;
 	    }else if(op =="/"){
-	        z = x / y;
-	        return z;
+	        return x / y;
 	    }else {
 	        return 0;
 	    }
-	   }
+	}
+    
+/* 
+switchCalc is not functional right now. 
+
+public static int switchCalc(String op, int x, int y)
+    {
+        switch (op) {
+            case "+":
+                return x + y;
+            break;
+            case "-":
+                return x - y;
+            break;
+            case "*":
+                return x * y;
+            break;
+            case "/":
+                return x / y;
+            break;
+            default: System.out.println("No math for you!");
+        }
+    }*/
 }
