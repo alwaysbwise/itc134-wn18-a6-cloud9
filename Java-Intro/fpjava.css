@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: #2B7EB3;
+}
+
+h2{
+    text-align: center;
+    color: #C2650D;
+}
+
+body{
+    background: #C2650D;
+    margin: auto;
+}
+
+p{
+    margin-left: 2em;
+    margin-right: 2em;
+    line-height: 20px;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+div.wrapper{
+    background-color: #989696;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+footer{
+    text-align: center;
+}
+
+a{
+    margin-left: 2em;
+    margin-right: 2em;
+    line-height: 20px;
+}
