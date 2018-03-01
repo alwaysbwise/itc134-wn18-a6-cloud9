@@ -20,6 +20,42 @@
      <p>The philosiphy behind Java is "write once, run everywhere." A program written in Java can theoretically run on any machine that supports it. The Java complier converts Java code into something the machine can read then the Java Virtual Machine interprets the code for the computer it is running on. Basically Java writes its own code in whatever language your device understands.
     </p> 
     <h2> Example Application</h2>
+       <p>
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		
+		int z = calculator("*", 5, 10);
+		System.out.println(z);
+		
+	}
+	
+	public static int calculator(String op, int x, int y){
+	    int z = 0;
+	    
+	    if(op == "+"){
+	        z = x + y;
+	        return z;
+	    }else if(op == "-"){
+	        z = x - y;
+	        return z;
+	    }else if (op == "*"){
+	        z = x * y;
+	        return z;
+	    }else if(op =="/"){
+	        z = x / y;
+	        return z;
+	    }else {
+	        return 0;
+	    }
+	   }
+}
+</p>
        <a href="https://www.jdoodle.com/online-java-compiler" target="_blank">Click here for an interactive Java Compiler</a>
    </section>
 
