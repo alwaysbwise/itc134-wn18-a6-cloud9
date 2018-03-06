@@ -7,6 +7,10 @@ h2{
     text-align: center;
     color: #C2650D;
 }
+h4{
+    text-align: center;
+    color: #C2650D; 
+}
 
 body{
     background: #C2650D;
@@ -40,6 +44,9 @@ div{
 }
 footer{
     text-align: center;
+}
+ul{
+    list-style: none;
 }
 
 a{
