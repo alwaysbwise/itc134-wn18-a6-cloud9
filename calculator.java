@@ -1,6 +1,5 @@
 /* Brief calculator example using 
  * if/else if block
- * also with a switch
  *
  * The calculator function takes 3 arguments -  
  * the operator and 2 integers.

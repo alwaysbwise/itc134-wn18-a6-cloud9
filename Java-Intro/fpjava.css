@@ -26,12 +26,17 @@ iframe{
 img{
     display: block;
     margin: 0 auto;
+    max-height: 150px;
 }
 div.wrapper{
     background-color: #989696;
     width: 80%;
     margin: auto;
     overflow: auto;
+}
+div{
+    margin: auto;
+    padding: 2em;
 }
 footer{
     text-align: center;
